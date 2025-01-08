@@ -57,13 +57,15 @@ a
 }
 .channels 
 {
+    max-width: fit-content;
+    margin-inline: auto;
     display: flex;
+    flex-direction: column;
 }
 .links
 {
     flex: 1;
     padding: 5px, 10px;
-    margin-right: 10px;    
 }
 .last
 {
